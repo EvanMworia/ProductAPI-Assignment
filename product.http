@@ -1,0 +1,12 @@
+
+POST  http://localhost:4005/products
+#-----ADDS A NEW product TO OUR DATABASE
+Content-Type: application/json
+
+{
+    "ProductName":"Monitor",
+    "ProductPrice":9500
+}
+
+########
+GET   http://localhost:4005/products
